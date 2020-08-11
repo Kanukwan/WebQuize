@@ -18,6 +18,32 @@ button{
     padding: 10px 20px;
 }
 
+/* Navigation */
+/* **Will Edit for test */
+.menu ul{
+  display: grid;
+  grid-gap: 10px;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+/* .menu a {
+    background: var(--yellow);
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: var(--black);
+    text-transform: uppercase;
+    font-size: 20px;
+  } */
+  
+  [aria-controls="menu-list"] {
+    display: none;
+  }
+
+/* Wrapper */
 .wrapper{
     text-transform: uppercase;
     padding: 10px;

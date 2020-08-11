@@ -6,13 +6,15 @@
     <title>Ada Restaurant</title>
 </head>
 <body>
-
     <div class="wrapper" id="menu">
-        <!-- <button>TACO</button>
-        <button>BEERS</button>
-        <button>WINES</button>
-        <button>DESSERTS</button>
-        <button>RESERVATION</button> -->
+    <nav class="menu">
+        <button aria-expanded="false" aria-controls="menu-list">
+          <span class="open">☰</span>
+          <span class="close">×</span>
+          Menu
+        </button>
+        <ul id="menu-list"></ul>
+      </nav>
     </div>
 
 </body>
@@ -21,5 +23,6 @@
 
 <script>
     // Call function
-    createMenu(document.getElementById("menu"));
+    // createMenu(document.getElementById("menu"));
+    createMenu(document.getElementById("menu-list"));
 </script>
