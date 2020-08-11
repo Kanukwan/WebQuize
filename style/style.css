@@ -1,8 +1,13 @@
+html {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
 body{
     background-image:url("../asset/images/topography.svg"),
         linear-gradient(110deg, #f93d66, #6d47d9);
     font-weight: 900;
     font-size: 20px;
+
     color: black;
     text-shadow: 0 2px 0 rgba(0,0,0,0.07);
 }
