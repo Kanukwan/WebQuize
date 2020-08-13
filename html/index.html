@@ -6,23 +6,32 @@
     <title>Ada Restaurant</title>
 </head>
 <body>
-    <div class="wrapper" id="menu">
+  <div class="wrapper">
     <nav class="menu">
         <button aria-expanded="false" aria-controls="menu-list">
           <span class="open">☰</span>
           <span class="close">×</span>
           Menu
         </button>
-        <ul id="menu-list"></ul>
+        <ul id="menu-list">
+          <li>
+            <a href="">Tacos</a>
+          </li>
+          <li>
+            <a href="">Beers</a>
+          </li>
+          <li>
+            <a href="">Wines</a>
+          </li>
+          <li>
+            <a href="">Desserts</a>
+          </li>
+          <li>
+            <a href="">Reservations</a>
+          </li>
+        </ul>
       </nav>
-    </div>
-
+  </div>
 </body>
 
 </html>
-
-<script>
-    // Call function
-    // createMenu(document.getElementById("menu"));
-    createMenu(document.getElementById("menu-list"));
-</script>

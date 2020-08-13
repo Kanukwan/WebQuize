@@ -19,7 +19,6 @@ button{
 }
 
 /* Navigation */
-/* **Will Edit for test */
 .menu ul{
     display: grid;
     grid-gap: 10px;
@@ -42,8 +41,8 @@ button{
     display: none;
   }
 
-/* Wrapper */
+/* Wrapper
 .wrapper{
     display: grid;
     grid-gap: 10px;
-}
+} */
